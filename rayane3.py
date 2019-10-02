@@ -1,0 +1,7 @@
+segundos = float(input("Digite o valor de segundos: "))
+a= int(segundos/3600)
+print("horas: ",a)
+m= int((segundos%a)/60)
+print("minutos: ",m)
+s= float(segundos-a-m)
+print("segundos: ",s)
